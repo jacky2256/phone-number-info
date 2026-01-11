@@ -35,6 +35,23 @@
 ---
 
 ## 🔧 Основные команды
+### Создать файл .env в папке deployment/ с конфигурацией
+    ```
+    # ===============================
+    # PostgreSQL
+    # ===============================
+    POSTGRES_DB=phone_db
+    POSTGRES_USER=phone_user
+    POSTGRES_PASSWORD=1234
+    POSTGRES_HOST=phone_db
+    POSTGRES_PORT=5432
+    
+    # ===============================
+    # Django
+    # ===============================
+    DJANGO_SECRET_KEY=django-insecure-8%*z&7^k%l68q@f!598^h+=*tz+xlzh!$1@t8#_hfy+4q)r*0d
+    DJANGO_DEBUG=True
+    ```
 ## Для запуска через docker:
 ```bash
 docker compose -f deployment/compose.yaml up -d
