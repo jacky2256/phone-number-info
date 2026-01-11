@@ -73,9 +73,20 @@ uv run python manage.py runapscheduler
 
 POST `/api/phone-info/`
 
+## Request:
 ```json
 {
   "phone_number": "+7 900 001-23-45"
+}
+```
+
+## Response:
+```json
+{
+  "operator": "ООО Т2 МОБАЙЛ",
+  "region": "Ростовская обл.",
+  "gar_region": "Ростовская область",
+  "inn": "7743895280"
 }
 ```
 
@@ -106,6 +117,13 @@ POST `/api/phone-info/`
 - +7 900 020-12-34
 
 ---
+
+## 📡 Пример API
+
+![API Example 1](docs/example_1.png)
+![API Example 2](docs/example_2.png)
+![API Example_3](docs/example_3.png)
+![API Example_4](docs/example_4.png)
 
 ## 📜 Лицензия
 MIT
