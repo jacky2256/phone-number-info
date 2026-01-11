@@ -1,0 +1,78 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ===============================
+# Virtual environments
+# ===============================
+.venv/
+venv/
+env/
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Django
+# ===============================
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Django migrations cache
+**/__pycache__/
+**/*.pyc
+
+# ===============================
+# Django APScheduler
+# ===============================
+django_apscheduler.sqlite
+apscheduler.db
+
+# если хочешь оставить папку, но не файлы:
+# data/*
+# !data/.gitkeep
+
+# ===============================
+# IDEs / Editors
+# ===============================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Docker
+# ===============================
+*.pid
+docker-compose.override.yml
+
+# ===============================
+# Coverage / tests
+# ===============================
+.coverage
+htmlcov/
+.pytest_cache/
+
