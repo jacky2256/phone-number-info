@@ -39,8 +39,9 @@
 ```bash
 docker compose -f deployment/compose.yaml up -d
 
-## Для ручного запуска
 ```
+
+## Для ручного запуска
 ### Установка зависимостей
 ```bash
 uv sync
